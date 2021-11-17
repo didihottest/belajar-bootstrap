@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0E9D2;
+  height: 4000px;
+}
+
+.merah {
+  background-color: red;
+  height: 200px;
+}
+
+.biru {
+  background-color: blue;
+  height: 200px;
+}
+
+
+.kolom-1 {
+  background-color: red;
+}
+
+.kolom-2 {
+  background-color: blue;
+}
+
+.kolom-3 {
+  background-color: green;
+}
+
+/* @media screen and (max-width: 540px) {
+  .kolom-1, .kolom-2, .kolom-3 {
+    text-align: center;
+  }
+} */
+
+/* cara 1 */
+/* .edit-navlink a {
+  color: rgba(255, 255, 255, 1 ) !important;
+} */
+/* cara 2 */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-link {
+  color: gold;
+}
+
+.card-body {
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.btn-custom{
+  height: 100%;
+}
